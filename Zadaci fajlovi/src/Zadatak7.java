@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -13,11 +13,11 @@ public class Zadatak7 {
 
 		Scanner unos=new Scanner(System.in);
 		
-		 System.out.println("Unesite ime fajla ");
+		 System.out.println("Unesite ime fajla ");  //predzadnja.txt
 			String ime = unos.next();
 		
-		FileReader file=new FileReader("predzadnja.txt");
-	//	BufferedReader br=new BufferedReader(file);
+		FileReader file=new FileReader(ime);
+
 		
 		  ArrayList<String> lista = new ArrayList<>();
 		Scanner input = new Scanner(file);

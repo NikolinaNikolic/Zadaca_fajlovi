@@ -14,7 +14,7 @@ Scanner unos=new Scanner(System.in);
 System.out.println("Unesite ime ");
 	String ime = unos.nextLine();
 
-FileReader file=new FileReader("slova.txt");
+FileReader file=new FileReader(ime); //slova.txt
 
 Scanner input = new Scanner(file);
 

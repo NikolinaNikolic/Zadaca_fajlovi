@@ -19,7 +19,7 @@ iii. Ispisati promjenjenu rečenicu na konzoli
 		 System.out.println("Unesite ime ");
 			String ime = unos.nextLine();
 	
-		FileReader file=new FileReader("recenice.txt");
+		FileReader file=new FileReader(ime); //recenice.txt
 		
 		Scanner input = new Scanner(file);
 		

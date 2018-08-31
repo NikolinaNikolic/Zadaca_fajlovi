@@ -21,7 +21,7 @@ String ime = unos.next();
 	    String najduza = "";
 	    String current;
 
-		FileReader file=new FileReader("najduza.txt");
+		FileReader file=new FileReader(ime); //najduza.txt
 
 		 ArrayList<String> lista = new ArrayList<>();
 		 Scanner input=new Scanner(file);

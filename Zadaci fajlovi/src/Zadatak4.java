@@ -16,7 +16,7 @@ riječi. (Npr. ukoliko je prva rečenica u fileu “Hello World“ program treba
 		 System.out.println("Unesite ime ");
 			String ime = unos.next();
 		
-		FileReader fajl=new FileReader("rijeci.txt");
+		FileReader fajl=new FileReader(ime); //rijeci.txt
         BufferedReader br=new BufferedReader(fajl);
         String naopako;
         
